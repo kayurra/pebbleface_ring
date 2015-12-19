@@ -1,0 +1,58 @@
+{
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Tsukune",
+    "longName": "RINGface",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/pebbleface_ring.png",
+                "name": "IMAGE_RING001",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "characterRegex": "[0-9;. ]",
+                "file": "fonts/singaporeslingbold.ttf",
+                "name": "FONT_SINGAPORE_BOLD_20",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "images/suzu001.png",
+                "name": "IMAGE_BG_SUZU001",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            },
+            {
+                "file": "images/suzu001_2828.png",
+                "name": "IMAGE_SUZU001_2828",
+                "targetPlatforms": [
+                    "chalk"
+                ],
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "RING",
+    "targetPlatforms": [
+        "chalk"
+    ],
+    "uuid": "40e908ba-7273-4a06-9ae7-20960cbe0a79",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
